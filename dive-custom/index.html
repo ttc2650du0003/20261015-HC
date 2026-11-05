@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Micro Movement</title>
+  <meta name="description" content="micromovement-mv">
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>
+      <img src="img/micromovement.PNG" alt="logo">
+    </h1>
+  </header>
+
+  <main>
+    <div class="mv-area">
+      <img src="img/profile_img.JPG" alt="mv">
+    </div> <!-- .mv-area -->
+
+    <section>
+      <div class="section-inner">
+        <h2>淺動音樂キャンプとは？</h2>
+        <p>「浅動音楽文芸キャンプ」は、台湾・高雄で開催される、高校生の音楽創作を応援する夏の音楽キャンプです。<br>
+        未知の宇宙に潜む、神秘的な音楽のエネルギー。さあ、各地から集まった若き探検家たちょ！</p>
+      </div> <!-- /.section-inner -->
+    </section>
+
+    <section>
+      <div class="section-inner">
+        <h2>音楽創作ワークショップ</h2>
+        <p>浅動は、誰もが心の中に音楽のひらめきを持っていると信じています。自分の心と向き合い、まだ気づいていない創作のエネルギーを解き放とう！</p>
+        <!-- <ol>
+          <li>学科講習（5-6時間）</li>
+          <li>プール実習（1-2日）</li>
+          <li>海洋実習（2日）</li>
+          <li>筆記試験</li>
+        </ol> -->
+        <!-- <table>
+          <tr>
+            <th>料金に含まれるもの</th>
+            <td>教材費・実習費・器材レンタル代・ライセンス申請料</td>
+          </tr>
+          <tr>
+            <th>料金に含まれないもの</th>
+            <td>交通費・宿泊費・追加ダイブ費（希望者のみ）</td>
+          </tr>
+        </table> -->
+      </div> <!-- /.section-inner -->
+    </section>
+
+    <section>
+      <div class="section-inner">
+        <h2>音楽ブランディング講座</h2>
+        <p>アーティスト開発の視点から、バンドの個性や方向性を探り、音楽ジャンルと組み合わせながら、自分たちだけのスタイルを形にしていきます。数え切れないバンドが存在する音楽の宇宙で、自分たちを見失わないために。<br>
+          自分たちならではの魅力を見つけ、未来への新たな可能性を切り開こう！</p>
+      </div> <!-- /.section-inner -->
+    </section>
+
+    <section>
+      <div class="section-inner">
+        <h2>申し込みフォーム</h2>
+        <form action="program.php" method="post">
+          <dl>
+            <dt><label for="user-name">氏名</label></dt>
+            <dd><input type="text" id="user-name" name="user-name"></dd>
+
+            <dt><label for="user-email">メールアドレス</label></dt>
+            <dd><input type="text" id="user-email" name="user-email"></dd>
+
+            <dt>楽器経験はありますか？</dt>
+            <dd>
+              <input type="radio" id="swim-yes" name="swim" value="はい">
+              <label for="swim-yes">はい</label>
+
+              <input type="radio" id="swim-no" name="swim" value="いいえ">
+              <label for="swim-no">いいえ</label>
+            </dd>
+          </dl>
+
+          <div class="form-submit">
+            <button type="submit" id="submit" name="submit">申し込む</button>
+          </div>
+        </form> <!-- /.form-submit -->
+      </div> <!-- /.section-inner -->
+    </section>
+
+    <div class="form-img-area">
+      <img src="img/banner.JPEG" alt="banner">
+    </div> <!-- /.form-img-area -->
+  </main>
+
+  <footer>
+    <address>
+      MicromovementStaff@gmail.com<br>
+      浅動音楽文芸キャンプ
+    </address>
+
+    <small>&copy; MicroMovement Corporation.</small>
+  </footer>
+</body>
+
+</html>
